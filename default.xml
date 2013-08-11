@@ -337,12 +337,12 @@
 <!--- Sony XNovathor AOSP Trees ---->
 
   <project path="kernel/sony/u8500" name="XNovathor/android_kernel_sony_u8500" remote="github" revision="jb-dev" />
-  <project path="vendor/sony" name="XNovathor/android_vendor_sony" remote="github" revision="cm10.1" />
-  <project path="device/sony/montblanc-common" name="XNovathor/android_device_sony_montblanc-common" remote="github" revision="cm10.1" />
-  <project path="device/sony/kumquat" name="XNovathor/android_device_sony_kumquat" remote="github" revision="cm10.1" />
-  <project path="device/sony/lotus" name="XNovathor/android_device_sony_lotus" remote="github" revision="cm10.1" />
-  <project path="device/sony/pepper" name="XNovathor/android_device_sony_pepper" remote="github" revision="cm10.1" />
-  <project path="device/sony/nypon" name="XNovathor/android_device_sony_nypon" remote="github" revision="cm10.1" />
+  <project path="vendor/sony" name="XNovathor/android_vendor_sony" remote="github" revision="jb-4.2" />
+  <project path="device/sony/montblanc-common" name="XNovathor/android_device_sony_montblanc-common" remote="github" revision="jb-4.2" />
+  <project path="device/sony/kumquat" name="XNovathor/android_device_sony_kumquat" remote="github" revision="jb-4.2" />
+  <project path="device/sony/lotus" name="XNovathor/android_device_sony_lotus" remote="github" revision="jb-4.2" />
+  <project path="device/sony/pepper" name="XNovathor/android_device_sony_pepper" remote="github" revision="jb-4.2" />
+  <project path="device/sony/nypon" name="XNovathor/android_device_sony_nypon" remote="github" revision="jb-4.2" />
   <project path="hardware/semc/dash" name="XNovathor/android_hardware_sony_DASH" remote="github" revision="jellybean" />
 
 </manifest>
