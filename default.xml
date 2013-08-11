@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="gh"
+           fetch="https://github.com/" />
+
   <remote  name="aosp"
            fetch=".." />
   <default revision="refs/tags/android-4.1.2_r1"
@@ -302,5 +305,26 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
+  
+<!--
+==========================================================================================================================
+XNovathor PROJECT
+==========================================================================================================================
+-->
 
+<!-- Devices and commons used by XNovathor -->
+  <project path="device/sony/montblanc-common" name="XNovathor/android_device_sony_montblanc-common" remote="gh" revision="jb-4.1" />
+  <project path="device/sony/kumquat" name="XNovathor/android_device_sony_kumquat" remote="gh" revision="jb-4.1" />
+  <project path="device/sony/pepper" name="XNovathor/android_device_sony_pepper" remote="gh" revision="jb-4.1" />
+  <project path="device/sony/lotus" name="XNovathor/android_device_semc_lotus" remote="gh" revision="jb-4.1" />
+  <project path="device/sony/nypon" name="XNovathor/android_device_semc_nypon" remote="gh" revision="jb-4.1" />
+
+<!-- Vendors -->
+  <project path="vendor/sony" name="XNovathor/android_vendor_sony" remote="gh" revision="jb-4.1" />
+  
+<!--Device kernel -->
+
+ <project path="kernel/sony/u8500" name="XNovathor/android_kernel_sony_u8500" remote="gh" revision="jb-dev" />
+
+  
 </manifest>
