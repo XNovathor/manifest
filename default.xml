@@ -19,8 +19,6 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" groups="pdk" />
@@ -30,14 +28,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
-  <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" />
-  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -342,5 +333,16 @@
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
+
+<!--- Sony XNovathor AOSP Trees ---->
+
+  <project path="kernel/sony/u8500" name="XNovathor/android_kernel_sony_u8500" remote="github" revision="jb-dev" />
+  <project path="vendor/sony" name="XNovathor/android_vendor_sony" remote="github" revision="cm10.1" />
+  <project path="device/sony/montblanc-common" name="XNovathor/android_device_sony_montblanc-common" remote="github" revision="cm10.1" />
+  <project path="device/sony/kumquat" name="XNovathor/android_device_sony_kumquat" remote="github" revision="cm10.1" />
+  <project path="device/sony/lotus" name="XNovathor/android_device_sony_lotus" remote="github" revision="cm10.1" />
+  <project path="device/sony/pepper" name="XNovathor/android_device_sony_pepper" remote="github" revision="cm10.1" />
+  <project path="device/sony/nypon" name="XNovathor/android_device_sony_nypon" remote="github" revision="cm10.1" />
+  <project path="hardware/semc/dash" name="XNovathor/android_hardware_sony_DASH" remote="github" revision="jellybean" />
 
 </manifest>
