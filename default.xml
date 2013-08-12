@@ -311,8 +311,8 @@ XNovathor PROJECT
   <project path="device/sony/montblanc-common" name="XNovathor/android_device_sony_montblanc-common" remote="gh" revision="jb-4.1" />
   <project path="device/sony/kumquat" name="XNovathor/android_device_sony_kumquat" remote="gh" revision="jb-4.1" />
   <project path="device/sony/pepper" name="XNovathor/android_device_sony_pepper" remote="gh" revision="jb-4.1" />
-  <project path="device/sony/lotus" name="XNovathor/android_device_semc_lotus" remote="gh" revision="jb-4.1" />
-  <project path="device/sony/nypon" name="XNovathor/android_device_semc_nypon" remote="gh" revision="jb-4.1" />
+  <project path="device/sony/lotus" name="XNovathor/android_device_sony_lotus" remote="gh" revision="jb-4.1" />
+  <project path="device/sony/nypon" name="XNovathor/android_device_sony_nypon" remote="gh" revision="jb-4.1" />
 
 <!-- Vendors -->
   <project path="vendor/sony" name="XNovathor/android_vendor_sony" remote="gh" revision="jb-4.1" />
