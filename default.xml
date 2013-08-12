@@ -8,8 +8,8 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
-  <remote  name="aosp"
-           fetch=".." />
+  <remote name="aosp"
+           fetch="https://android.googlesource.com/" />
   <default revision="refs/tags/android-4.1.2_r1"
            remote="aosp"
            sync-j="4" />
