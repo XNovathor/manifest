@@ -7,6 +7,11 @@
   <remote name="cm"
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
+  
+  <remote name="kxp"
+           fetch="https://github.com/"
+           revision="jb"
+           review="smartdev.com.pl:8080" />
 
   <remote name="aosp"
            fetch="https://android.googlesource.com/" />
@@ -14,7 +19,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" >
+  <project path="build" name="KangXperiaProject/android_build" remote="kxp" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
