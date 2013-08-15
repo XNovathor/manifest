@@ -190,7 +190,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="jellybean" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="jellybean" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="CyanogenMod/platform_frameworks_av" remote="cm" revision="jellybean" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="jellybean" />
   <project path="frameworks/base" name="mikegapinski/platform_frameworks_base" remote="gh" revision="jellybean" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -306,7 +306,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="CyanogenMod/system_core" remote="cm" revision="jellybean" />
+  <project path="system/core" name="CyanogenMod/android_system_core" remote="cm" revision="jellybean" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="jellybean" />
