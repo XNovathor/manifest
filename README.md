@@ -15,3 +15,9 @@ To initialize your local repository using the AOSP trees, use a command like thi
 Then to sync up:
 
     repo sync
+
+To build :
+
+    . build/envsetup.sh
+    lunch full_"device_name"-userdebug                       (kumquat, pepper, lotus, nypon)
+    make otapackage
