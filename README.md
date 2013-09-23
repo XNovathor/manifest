@@ -19,5 +19,5 @@ Then to sync up:
 To build :
 
     . build/envsetup.sh
-    lunch full_"device_name"-userdebug                       (kumquat, pepper, lotus, nypon)
+    lunch full_"device_name"-eng                       (kumquat, pepper, lotus, nypon)
     make otapackage
