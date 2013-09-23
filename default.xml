@@ -343,7 +343,7 @@ this avoids merging conflicts from AOSP manifest
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="cm" revision="jellybean" />
 
 <!-- We use hardware from CM 10 -->
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="fxp" revision="jellybean"/>
-  <project path="hardware/libhardware_legacy" name="XNovathor/android_hardware_libhardware_legacy" remote="gh" revision="jellybean"/>
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="jellybean"/>
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="jellybean"/>
 
 </manifest>
