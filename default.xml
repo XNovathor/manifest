@@ -328,7 +328,7 @@ this avoids merging conflicts from AOSP manifest
   <project path="device/sony/nypon" name="XNovathor/android_device_sony_nypon" remote="gh" revision="jellybean" />
 
 <!-- Vendors -->
-  <project path="vendor/sony" name="XNovathor/android_vendor_sony" remote="gh" revision="jellybean" />
+  <project path="vendor/sony" name="percy-g2/proprietary_vendor_Sony-u8500" remote="gh" revision="master" />
 
 <!--Device kernels -->
   <project path="kernel/sony/u8500" name="XNovathor/android_kernel_sony_u8500" remote="gh" revision="jb-dev" />
