@@ -208,7 +208,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
 <!--  <project path="frameworks/base" name="platform/frameworks/base" /> -->
-  <project path="frameworks/base" name="android-bluez/frameworks_base" remote="gitorious" revision="master"/>
+  <project path="frameworks/base" name="android-bluez/frameworks_base" remote="gitorious" revision="android-bluez-4.2.2"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
