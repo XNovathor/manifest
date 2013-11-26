@@ -12,7 +12,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android-bluez/platform_build" remote="gitorious" revision="master">
+  <project path="build" name="android-bluez/platform_build" remote="gitorious" revision="android-bluez-4.2.2">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
