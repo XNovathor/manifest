@@ -331,7 +331,7 @@ this avoids merging conflicts from AOSP manifest
   <project path="vendor/sony" name="XNovathor/android_vendor_sony" remote="gh" revision="jellybean" />
 
 <!--Device kernels -->
-  <project path="kernel/sony/u8500" name="XNovathor/android_kernel_sony_u8500" remote="gh" revision="jb-dev" />
+  <project path="kernel/sony/u8500" name="munjeni/android_kernel_xperiago" remote="gh" revision="jb-dev" />
   
 <!-- Supplicant from CM10 -->
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.1" />
