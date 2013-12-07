@@ -35,7 +35,7 @@
   <project path="bionic" name="AOKP/bionic" remote="aokp" revision="jb" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" remote="cm" revision="jellybean" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="cm" revision="jellybean" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="jellybean" />
+  <project path="bootable/recovery" name="XNovathor/android_bootable_recovery" remote="gh" revision="jellybean" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb" />
   <project path="development" name="AOKP/platform_development" remote="aokp" revision="jb" />
