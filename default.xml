@@ -299,7 +299,7 @@
   <project path="sdk" name="AOKP/sdk" remote="aokp" revision="jb" />
   <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="aokp" revision="jb" />
   <project path="system/core" name="XNovathor/android_system_core" remote="gh" revision="jellybean" />
-  <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="jellybean" />
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="jellybean" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="cm" revision="jellybean" />
