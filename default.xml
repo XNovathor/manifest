@@ -475,6 +475,10 @@
 PROJECT
 ==========================================================================================================================
 -->
+
+<!-- manifest -->
+  <project path="manifest" name="XNovathor/manifest" remote="gh" revision="cm-11.0" />
+  
 <!-- Devices -->
   <project path="device/sony/kumquat" name="XNovathor/android_device_sony_kumquat1" remote="gh" revision="cm-11.0" />
 
