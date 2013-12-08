@@ -484,4 +484,7 @@ PROJECT
 <!--Device kernels -->
   <project path="kernel/sony/u8500" name="XNovathor/android_kernel_xperiago" remote="gh" revision="jb-dev" />
   
+<!--Hardware part -->
+  <project path="hardware/semc" name="XNovathor/android_hardware_semc" remote="gh" revision="master" />
+  
 </manifest>
