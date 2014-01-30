@@ -338,11 +338,11 @@ this avoids merging conflicts from AOSP manifest
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.1" />
 <!-- Frameworks -->
   <project path="frameworks/base" name="XNovathor/platform_frameworks_base" remote="gh" revision="jellybean" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="jellybean" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="cm" revision="jellybean" />
+  <project path="frameworks/av" name="percy-g2/android_frameworks_av" remote="cm" revision="aosp-4.1.2" />
+  <project path="frameworks/native" name="percy-g2/android_frameworks_native" remote="cm" revision="aosp-4.1.2" />
 
 <!-- We use hardware from CM 10 -->
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="jellybean"/>
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="jellybean"/>
+  <project path="hardware/libhardware" name="percy-g2/android_hardware_libhardware" remote="cm" revision="aosp-4.1.2"/>
+  <project path="hardware/libhardware_legacy" name="percy-g2/android_hardware_libhardware_legacy" remote="cm" revision="aosp-4.1.2"/>
 
 </manifest>
