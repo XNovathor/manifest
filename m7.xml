@@ -1,0 +1,10 @@
+<manifest>
+
+  <!-- Device Trees -->
+  <project name="CyanogenMod/android_device_htc_m7-common" path="device/htc/m7-common" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_device_htc_m7spr" path="device/htc/m7spr" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_kernel_htc_m7" path="kernel/htc/m7" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="github" revision="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_htc" path="proprietary/vendor/htc" remote="github" revision="cm-13.0" />
+
+</manifest>
