@@ -5,7 +5,7 @@
   <project name="CyanogenMod/android_device_htc_m7spr" path="device/htc/m7spr" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="github" revision="cm-13.0" />
-  <project name="TheMuppets/proprietary_vendor_htc" path="proprietary/vendor/htc" remote="github" revision="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-13.0" />
   
   <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8960" />
